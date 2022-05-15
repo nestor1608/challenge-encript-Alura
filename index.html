@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador - Alura</title>
+    <link rel="stylesheet" href="css/encriptador.css">
+    <link rel="stylesheet" href="css/sectores.css">
+</head>
+
+<body>
+
+
+    <div class="logo">
+        <img class="vector" src="img/Vector.png" alt="">
+    </div>
+<!-- ------------------------INPUT(TEXTAREA)------------------ -->
+    <section>
+        <textarea class="text-encrip" cols="30" rows="10" placeholder="Ingrese el texto Aqui"></textarea>
+    </section>
+
+<!-- ----------------------INFO MINUSCULA-------------------- -->
+    <span class="frame-1">
+        <img src="img/Vectoralert.png"> Ingrese solo letras minisculas
+    </span>
+<!-- ---------------------FRAME-3 BOTONES----------------- -->
+    <div class="frame-3">
+        <button class="boton-encriptar" type="submit">Encriptar</button>
+        <button class="boton-desencriptar" type="submit">Desencriptar</button>
+    </div>
+
+<!-- ---------------------RECTANGULO-------------------- -->
+    <section class="rectangle">
+        <span class="spam">
+            <img class="muñeco" src="img/Muñeco.png">
+            <div class="frame-5">
+                <p class="msn-encri">Ninguna mensaje fue encontrado</p>
+                <p class="msn-input">Ingreso el texto que desees encriptar o desencriptar</p>
+            </div>
+        </span>
+<!-- -------------------SPAN DE RESULATADOR ENCRIP-------- -->
+        <span id="idmostrar" class="nodeOut">
+            <ul class="text-encriptado">
+<!-- --------------BOTON PARA COPIAR---------- -->
+            </ul>
+            <button class="btn-copy">Copy</button>
+        </span>
+
+    </section>
+
+
+<!-- ----------------------SCRIPT-------------------- -->
+
+    <script src="js/alura.js"></script>
+    <script src="js/encriptar.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,63 @@
+
+.logo{
+    position: absolute;
+    display:flex ;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    order: 0;
+    width: 120px;
+    height: 48px;
+    top: 40px;
+    left: 4%;
+    gap: 40;
+}
+.frame-1{
+    position: absolute;
+    width: 50%;
+    height: 18px;
+    left: 15%;
+    top: 80%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 8px;
+}
+.frame-3{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 24px;
+    position: absolute;
+    width: 40%;
+    height: 67px;
+    left: 12%;
+    top: 85%;
+}
+
+.frame-5{
+    font-family: "Inter";
+    flex-direction: column;
+    margin-left:19px;
+
+}
+.rectangle{
+    position: absolute;
+    background-color: #FFFFFF;
+    width: 400px;
+    height: 90%;
+    left: 67%;
+    top:30px;
+    border-radius: 32px;
+    padding: 10px;
+    text-align: center;
+}
+.text-encriptado{
+    position: relative;
+    
+}
+.text-encriptado{
+    width: 200px;
+}
